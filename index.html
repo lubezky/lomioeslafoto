@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lo mío es la foto | Una foto y su historia</title>
+  <title>Lo mío es la foto. Sergio Lubezky</title>
   <meta name="description" content="Una foto y su historia. Anécdotas, lecciones y recuerdos de Sergio Lubezky sobre lo que ve, lo que aprende y por qué la fotografía es lo suyo.">
   <meta name="author" content="Sergio Lubezky">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -13,14 +13,16 @@
   <link rel="alternate" hreflang="es-MX" href="https://lomioeslafoto.com/">
   <link rel="alternate" hreflang="x-default" href="https://lomioeslafoto.com/">
   <link rel="alternate" type="application/rss+xml" title="Lo mío es la foto" href="https://lomioeslafoto.com/feed.xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="favicon-48.png" sizes="48x48" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_MX">
   <meta property="og:site_name" content="Lo mío es la foto">
-  <meta property="og:title" content="Lo mío es la foto | Una foto y su historia">
+  <meta property="og:title" content="Lo mío es la foto. Sergio Lubezky">
   <meta property="og:description" content="Una foto y su historia. Anécdotas, lecciones y recuerdos de Sergio Lubezky sobre lo que ve, lo que aprende y por qué la fotografía es lo suyo.">
   <meta property="og:url" content="https://lomioeslafoto.com/">
   <meta property="og:image" content="https://lomioeslafoto.com/img/og.jpg">
@@ -32,7 +34,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@slubezky">
   <meta name="twitter:creator" content="@slubezky">
-  <meta name="twitter:title" content="Lo mío es la foto | Una foto y su historia">
+  <meta name="twitter:title" content="Lo mío es la foto. Sergio Lubezky">
   <meta name="twitter:description" content="Una foto y su historia. Anécdotas, lecciones y recuerdos de Sergio Lubezky sobre lo que ve, lo que aprende y por qué la fotografía es lo suyo.">
   <meta name="twitter:image" content="https://lomioeslafoto.com/img/og.jpg">
   <meta name="twitter:image:alt" content="Lo mío es la foto: una foto y su historia, por Sergio Lubezky">
@@ -46,32 +48,30 @@
       "@id": "https://lomioeslafoto.com/#website",
       "url": "https://lomioeslafoto.com/",
       "name": "Lo mío es la foto",
+      "alternateName": "Lo mío es la foto. Sergio Lubezky",
       "inLanguage": "es-MX",
       "publisher": {
-        "@type": "Person",
-        "@id": "https://lubezky.com/#person",
-        "name": "Sergio Lubezky",
-        "url": "https://lubezky.com/"
+        "@id": "https://lomioeslafoto.com/#sergio"
       }
     },
     {
-      "@type": "WebPage",
-      "@id": "https://lomioeslafoto.com/#webpage",
-      "url": "https://lomioeslafoto.com/",
-      "name": "Lo mío es la foto | Una foto y su historia",
-      "description": "Una foto y su historia. Anécdotas, lecciones y recuerdos de Sergio Lubezky sobre lo que ve, lo que aprende y por qué la fotografía es lo suyo.",
-      "inLanguage": "es-MX",
-      "isPartOf": {
-        "@id": "https://lomioeslafoto.com/#website"
-      },
-      "author": {
-        "@type": "Person",
-        "@id": "https://lubezky.com/#person"
-      },
-      "about": {
-        "@type": "Person",
-        "@id": "https://lubezky.com/#person"
-      }
+      "@type": "Person",
+      "@id": "https://lomioeslafoto.com/#sergio",
+      "name": "Sergio Lubezky",
+      "url": "https://lubezky.com/",
+      "image": "https://lomioeslafoto.com/img/portada.webp",
+      "jobTitle": "Fotógrafo",
+      "email": "sergio@lubezky.com",
+      "description": "Fotógrafo mexicano con obra expuesta en México y el extranjero, incluyendo Tokio y Nagoya, y pionero en el uso de drones para fotografía aérea.",
+      "sameAs": [
+        "https://lubezky.com/",
+        "https://clasesdefoto.com/",
+        "https://coachdefoto.com/",
+        "https://www.instagram.com/sergiolubezky/",
+        "https://www.linkedin.com/in/sergiolubezky/",
+        "https://x.com/slubezky",
+        "https://www.facebook.com/sergiolubezky/"
+      ]
     },
     {
       "@type": "Blog",
@@ -80,12 +80,8 @@
       "description": "Una foto y su historia. Anécdotas, lecciones y recuerdos de Sergio Lubezky sobre lo que ve, lo que aprende y por qué la fotografía es lo suyo.",
       "url": "https://lomioeslafoto.com/",
       "inLanguage": "es-MX",
-      "isPartOf": {
-        "@id": "https://lomioeslafoto.com/#website"
-      },
       "author": {
-        "@type": "Person",
-        "@id": "https://lubezky.com/#person"
+        "@id": "https://lomioeslafoto.com/#sergio"
       },
       "blogPost": [
         {
@@ -184,10 +180,10 @@
   <a class="skip" href="#contenido">Ir al contenido</a>
   <header class="site-header">
     <div class="wide">
-      <a class="wordmark" href="./">Lo mío es la foto</a>
+      <span class="wordmark">Lo mío es la foto.<span class="by"> Sergio Lubezky</span></span>
       <nav class="nav" aria-label="Principal">
-        <a href="historias/">Historias</a>
-        <a href="acerca/">Acerca</a>
+        <a href="historias/index.html">Historias</a>
+        <a href="acerca/index.html">Acerca</a>
       </nav>
     </div>
   </header>
@@ -200,39 +196,39 @@
           <p>Soy Sergio Lubezky, fotógrafo. Llevo muchos años con una cámara en la mano y, con el tiempo, entendí que lo que más me importa de una foto no es lo que muestra, sino lo que me hizo sentir y lo que aprendí al hacerla.</p>
           <p>Aquí cuento esas historias: una foto y lo que pasó antes y después del clic. Una playa en San Diego, una escalera en Centro Habana, un pescador en Trinidad, un museo en Medellín. Escenas pequeñas que me enseñaron cosas grandes.</p>
           <p>No es un curso ni un portafolio. Es mi manera de explicar por qué la fotografía es lo mío, y una invitación a mirar con más calma. Entra a la historia que te llame la atención, o recorre el índice por temas.</p>
-          <div class="actions"><a class="btn" href="#historias">Leer las historias</a><a class="btn btn-line" href="acerca/#sobre-mi">Conóceme</a></div>
+          <div class="actions"><a class="btn" href="#historias">Leer las historias</a><a class="btn btn-line" href="acerca/index.html#sobre-mi">Conóceme</a></div>
         </div>
-        <img class="hero-photo" src="img/sergio.webp" width="750" height="940" fetchpriority="high" alt="Retrato de Sergio Lubezky sonriendo, con camisa azul estampada">
+        <img class="hero-photo" src="img/portada.webp" width="960" height="1186" fetchpriority="high" alt="Sergio Lubezky sonriendo, con una taza de café en la mano, en una cafetería">
       </div>
     </section>
     <section class="block" id="historias" aria-label="Historias">
       <div class="wide">
         <div class="head">
           <h2>Historias</h2>
-          <ul class="chips"><li><a class="chip" href="historias/#aprender-a-ver">Aprender a ver</a></li><li><a class="chip" href="historias/#personas">Personas</a></li><li><a class="chip" href="historias/#gratitud">Gratitud</a></li><li><a class="chip" href="historias/#perseverancia">Perseverancia</a></li><li><a class="chip" href="historias/#imaginar-y-crear">Imaginar y crear</a></li></ul>
+          <ul class="chips"><li><a class="chip" href="historias/index.html#aprender-a-ver">Aprender a ver</a></li><li><a class="chip" href="historias/index.html#personas">Personas</a></li><li><a class="chip" href="historias/index.html#gratitud">Gratitud</a></li><li><a class="chip" href="historias/index.html#perseverancia">Perseverancia</a></li><li><a class="chip" href="historias/index.html#imaginar-y-crear">Imaginar y crear</a></li></ul>
         </div>
         <ul class="grid">
-        <li><a class="card" href="historias/medellin/"><span class="thumb"><img src="img/t-medellin.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Laderas de Medellín cubiertas de casas de ladrillo rojizo, con montañas y nubes al fondo"></span><h3>Sin comparar</h3><span class="muted">Caicedo La Sierra, Medellín, Colombia</span></a></li>
-        <li><a class="card" href="historias/ancon/"><span class="thumb"><img src="img/t-ancon.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Tres pescadores a la orilla del mar, en Playa Ancón; uno, de sombrero, mira hacia la cámara"></span><h3>Un buen pescador</h3><span class="muted">Playa Ancón, Trinidad, Cuba</span></a></li>
-        <li><a class="card" href="historias/caminando/"><span class="thumb"><img src="img/t-caminando.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Una pareja camina por una playa inmensa, bajo un cielo de nubes difuminadas por una exposición larga"></span><h3>Pequeños destellos</h3><span class="muted">San Diego, California, EE. UU.</span></a></li>
-        <li><a class="card" href="historias/milojos/"><span class="thumb"><img src="img/t-milojos.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Autorretrato: un hombre de barba gris mira a través de un foróptero, el aparato de las pruebas de la vista"></span><h3>El cristal con que miras</h3><span class="muted">Ciudad de México, México</span></a></li>
-        <li><a class="card" href="historias/escalera/"><span class="thumb"><img src="img/t-escalera.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Escalera antigua con barandal de hierro en Centro Habana, con una figura de rojo desdibujada por el movimiento"></span><h3>Mensajes</h3><span class="muted">Centro Habana, La Habana, Cuba</span></a></li>
-        <li><a class="card" href="historias/suenos/"><span class="thumb"><img src="img/t-suenos.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Tres ventanas circulares enmarcan el mar al amanecer sobre un fondo negro"></span><h3>Tres ventanas al mar</h3><span class="muted">Barra Galindo, Tuxpan, Veracruz, México</span></a></li>
-        <li><a class="card" href="historias/calle/"><span class="thumb"><img src="img/t-calle.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Calle de Regla en blanco y negro, con muros gastados y perros caminando"></span><h3>Sin el ruido del color</h3><span class="muted">Regla, La Habana, Cuba</span></a></li>
-        <li><a class="card" href="historias/miradas/"><span class="thumb"><img src="img/t-miradas.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Mujeres en un balcón entre ropa tendida y un niño que gatea, vistos desde arriba, en el Vedado"></span><h3>¿Qué ven ellas?</h3><span class="muted">Vedado, La Habana, Cuba</span></a></li>
-        <li><a class="card" href="historias/sanandres/"><span class="thumb"><img src="img/t-sanandres.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Muelle de madera sobre el mar en San Andrés, con una persona sentada en la orilla y lanchas al fondo"></span><h3>Otra vez el anzuelo</h3><span class="muted">San Andrés, San Andrés y Providencia, Colombia</span></a></li>
-        <li><a class="card" href="historias/mamm/"><span class="thumb"><img src="img/t-mamm.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Sergio Lubezky frente a un mural colorido con las letras MDE, en la entrada del Museo de Arte Moderno de Medellín"></span><h3>Mi museo favorito</h3><span class="muted">Ciudad del Río, Medellín, Colombia</span></a></li>
-        <li><a class="card" href="historias/imagine/"><span class="thumb"><img src="img/t-imagine.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Gráfico azul con el texto «/imagine con poder imaginar el mundo entero es todo tuyo»"></span><h3>/imagine</h3><span class="muted">Ciudad de México, México</span></a></li>
-        <li><a class="card" href="historias/equipo/"><span class="thumb"><img src="img/t-equipo.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Un grupo de mujeres en fila imita las poses de las figuras de un mural"></span><h3>Ellas</h3><span class="muted">Fábrica de Arte, La Habana, Cuba</span></a></li>
-        <li><a class="card" href="historias/juego/"><span class="thumb"><img src="img/t-juego.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Niños jugando en una calle de Centro Habana"></span><h3>Lo básico</h3><span class="muted">Centro Habana, La Habana, Cuba</span></a></li>
-        <li><a class="card" href="historias/ventana/"><span class="thumb"><img src="img/t-ventana.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Arco abierto que enmarca un patio con sillas naranjas y un retrato en blanco y negro en la pared"></span><h3>Una ventana al paraíso</h3><span class="muted">Cartagena, Colombia</span></a></li>
+        <li><a class="card" href="historias/medellin/index.html"><span class="thumb"><img src="img/t-medellin.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Laderas de Medellín cubiertas de casas de ladrillo rojizo, con montañas y nubes al fondo"></span><h3>Sin comparar</h3><span class="muted">Caicedo La Sierra, Medellín, Colombia</span></a></li>
+        <li><a class="card" href="historias/ancon/index.html"><span class="thumb"><img src="img/t-ancon.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Tres pescadores a la orilla del mar, en Playa Ancón; uno, de sombrero, mira hacia la cámara"></span><h3>Un buen pescador</h3><span class="muted">Playa Ancón, Trinidad, Cuba</span></a></li>
+        <li><a class="card" href="historias/caminando/index.html"><span class="thumb"><img src="img/t-caminando.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Una pareja camina por una playa inmensa, bajo un cielo de nubes difuminadas por una exposición larga"></span><h3>Pequeños destellos</h3><span class="muted">San Diego, California, EE. UU.</span></a></li>
+        <li><a class="card" href="historias/milojos/index.html"><span class="thumb"><img src="img/t-milojos.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Autorretrato: un hombre de barba gris mira a través de un foróptero, el aparato de las pruebas de la vista"></span><h3>El cristal con que miras</h3><span class="muted">Ciudad de México, México</span></a></li>
+        <li><a class="card" href="historias/escalera/index.html"><span class="thumb"><img src="img/t-escalera.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Escalera antigua con barandal de hierro en Centro Habana, con una figura de rojo desdibujada por el movimiento"></span><h3>Mensajes</h3><span class="muted">Centro Habana, La Habana, Cuba</span></a></li>
+        <li><a class="card" href="historias/suenos/index.html"><span class="thumb"><img src="img/t-suenos.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Tres ventanas circulares enmarcan el mar al amanecer sobre un fondo negro"></span><h3>Tres ventanas al mar</h3><span class="muted">Barra Galindo, Tuxpan, Veracruz, México</span></a></li>
+        <li><a class="card" href="historias/calle/index.html"><span class="thumb"><img src="img/t-calle.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Calle de Regla en blanco y negro, con muros gastados y perros caminando"></span><h3>Sin el ruido del color</h3><span class="muted">Regla, La Habana, Cuba</span></a></li>
+        <li><a class="card" href="historias/miradas/index.html"><span class="thumb"><img src="img/t-miradas.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Mujeres en un balcón entre ropa tendida y un niño que gatea, vistos desde arriba, en el Vedado"></span><h3>¿Qué ven ellas?</h3><span class="muted">Vedado, La Habana, Cuba</span></a></li>
+        <li><a class="card" href="historias/sanandres/index.html"><span class="thumb"><img src="img/t-sanandres.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Muelle de madera sobre el mar en San Andrés, con una persona sentada en la orilla y lanchas al fondo"></span><h3>Otra vez el anzuelo</h3><span class="muted">San Andrés, San Andrés y Providencia, Colombia</span></a></li>
+        <li><a class="card" href="historias/mamm/index.html"><span class="thumb"><img src="img/t-mamm.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Sergio Lubezky frente a un mural colorido con las letras MDE, en la entrada del Museo de Arte Moderno de Medellín"></span><h3>Mi museo favorito</h3><span class="muted">Ciudad del Río, Medellín, Colombia</span></a></li>
+        <li><a class="card" href="historias/imagine/index.html"><span class="thumb"><img src="img/t-imagine.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Gráfico azul con el texto «/imagine con poder imaginar el mundo entero es todo tuyo»"></span><h3>/imagine</h3><span class="muted">Ciudad de México, México</span></a></li>
+        <li><a class="card" href="historias/equipo/index.html"><span class="thumb"><img src="img/t-equipo.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Un grupo de mujeres en fila imita las poses de las figuras de un mural"></span><h3>Ellas</h3><span class="muted">Fábrica de Arte, La Habana, Cuba</span></a></li>
+        <li><a class="card" href="historias/juego/index.html"><span class="thumb"><img src="img/t-juego.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Niños jugando en una calle de Centro Habana"></span><h3>Lo básico</h3><span class="muted">Centro Habana, La Habana, Cuba</span></a></li>
+        <li><a class="card" href="historias/ventana/index.html"><span class="thumb"><img src="img/t-ventana.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Arco abierto que enmarca un patio con sillas naranjas y un retrato en blanco y negro en la pared"></span><h3>Una ventana al paraíso</h3><span class="muted">Cartagena, Colombia</span></a></li>
         </ul>
       </div>
     </section>
     <section aria-label="Aprender fotografía">
       <div class="wide">
         <div class="invite">
-          <h2>¿Te dieron ganas de aprender?</h2>
+          <h2>¿Tienes ganas de aprender foto?</h2>
           <p>Si quieres empezar en la fotografía, doy clases individuales. Si ya fotografías y buscas una mirada propia, te acompaño con coaching y viajes fotográficos.</p>
           <div class="actions"><a class="btn" href="https://clasesdefoto.com/">Clases de foto</a><a class="btn btn-line" href="https://coachdefoto.com/">Coach de foto</a></div>
         </div>
